@@ -119,12 +119,11 @@ header {
 /* SECTION TITLE STYLES START */
 .section-title {
   font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding-bottom: 20px;
   border-bottom: 3px solid;
+  color: #024e76;
+  padding-bottom: 20px;
   text-align: center;
-  margin: 0 35px auto;
+  margin: 0 auto 35px auto;
   width: 50%;
 }
 
@@ -134,11 +133,10 @@ header {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+/* SECTION TITLE STYLES END */
 
-}
-.intro {
-  background:
-}
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2 ;
@@ -148,6 +146,7 @@ header {
   text-align: center;
 }
 
+/* WHAT YOU DO STYLES START */
 .steps {
 background-color: #fce138;
 }
@@ -195,7 +194,7 @@ font-size: 26px;
 line-height: 1.5;
 color: #024e76;
 }
-
+/* MEET THE TRAINERS START */
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -233,61 +232,66 @@ color: #024e76;
    font-size: 17px;
    
  }
- .text-left {
-  text-align: left;
-}
+/* TRAINER STYLES END */
 
-.text-right {
-  text-align: right;
-}
 .contact  {
   background: #024e76;
   text-align: center;
   
 }
-.section-title {
-  color: #fce138;
+
   
+/* REACH OUT STYLES START */
+.contact {
+  background: #024e76;
 }
-.contact-info{
+
+.contact h2 {
+  color: #fce138;
+}
+
+.contact-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .contact-info > * {
   flex: 1;
   margin: 15px;
 }
+
 .contact-info iframe {
-  
+  height: 400px;
 }
-.contact-info div{
+
+.contact-info div {
   color: white;
 }
+
 .contact-info h3 {
-font-size: 32px;
-color: #fce138;
+  color: #fce138;
+  font-size: 32px;
 }
+
 .contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 16px;
   font-style: normal;
-  
+}
 
-}
-.contact-info a {
-  color: #fce138;
-}
-.contact-form input, .contact-form textarea{
-  border: 1px sold #024e76;
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
+  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
 }
+
 .contact-form button {
   width: 100%;
   border: none;
@@ -297,10 +301,26 @@ color: #fce138;
   padding: 15px 0;
   font-size: 16px;
 }
-.flex-row{
-  display: flex;
-}  
 
+.contact-info a {
+  color: #fce138;
+}
+
+
+/* REACH OUT STYLES END */
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
 footer{
   padding: 40px 35px;
   width: 100%;
